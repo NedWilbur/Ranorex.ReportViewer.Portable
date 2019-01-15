@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Button x:Name="btnBrowse" Content="..." HorizontalAlignment="Left" Margin="671,10,0,0" VerticalAlignment="Top" Width="31" Click="btnBrowse_Click"/>
+        <Button x:Name="btnOpen" Content="Open" HorizontalAlignment="Left" Margin="707,10,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name="inpFilePath" HorizontalAlignment="Left" Height="23" Margin="10,7,0,0" TextWrapping="Wrap" Text="Report Path" VerticalAlignment="Top" Width="656"/>
+
     </Grid>
 </Window>
